@@ -1,0 +1,25 @@
+
+
+.info-nav{
+border-radius: 20px;
+margin-left: 10px;
+margin-right: 10px;
+border: solid black 2px;
+height: 15%;
+text-align: center;
+padding-top: 10px;
+margin-top: 5px;
+background-color: darkgoldenrod;
+}
+
+#output{
+    border: solid black 2px;
+    text-align: left;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    padding-left: 10%
+    
+
+}
+    
