@@ -140,7 +140,7 @@ color:white
 }
 
 .submit-btn{
-    border: solid  black;
+    border: solid  black 2px;
     height: 40px;
     width: 100px;
     margin-top: 40px;
