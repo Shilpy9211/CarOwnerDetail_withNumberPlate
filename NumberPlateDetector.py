@@ -106,18 +106,18 @@ def mainfn():
 ## ----------  Performing OCR in live video ----------
 def myocr():
     cap = cv2.VideoCapture(0)
-    p=0
+    count=0
     while cap.isOpened():
         
-        p=p+1
+        count=count+1
         ret, img = cap.read()
-        if p == 10:
+        if count == 10:
             cv2.imwrite("pic.jpg", img)
             #print("pic clicked")
             output_val = mainfn()
             return output_val
             #break
-            p=0
+            count=0
         # use multiple of 32 to set the new img shape
         height, width, _ = img.shape
         new_height = (height//32)*32
