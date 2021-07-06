@@ -144,7 +144,7 @@ color:white
     height: 40px;
     width: 100px;
     margin-top: 40px;
-    margin-left: 20 %;
+    margin-left: 20%;
     border-radius: 20px;
     text-decoration: black;
     background-color: red;
@@ -197,7 +197,7 @@ color:white
     height: 40px;
     width: 250px;
     border-radius: 15px;
-    
+    text-align: center;
 }
 
 ::placeholder{
