@@ -110,7 +110,7 @@
 }
 
 .top{
-    height: 40%;
+    height: 50%;
     width: 100%;
     background-image: url("./images/sky.jpeg");
     background-size: cover;
@@ -129,28 +129,68 @@ background-color: darkgoldenrod;
 }
 
 #btn{
-   
     height: 60%;
     border-radius: 10px;
     border: solid black 3px;
-
     margin: 10px;
+    margin-left: 25px;
     margin-bottom: 0px;
+    background-color: rgb(176, 211, 245);
 }
 
-#submit-btn{
+.submit-btn{
     border: solid  black;
     height: 50px;
     width: 100px;
-    margin-top:20px ;
-    margin-left: 45%;
+    margin-top: 40px;
+    margin-left: 35%;
     border-radius: 20px;
     text-decoration: black;
     background-color: coral;
 }
 #btn-info{
-    text-align: center;
+    padding-left: 10px;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 25px;
     height: 60px;
-    font-family:Arial, Helvetica, sans-serif}
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.class1{
+    width: 48%;
+    float: left;
+}
+
+
+#d2{
+    background-color: rgb(176, 211, 245);
+    height: 60%;
+    border-radius: 10px;
+    border: solid black 3px;
+    margin: 10px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+
+}
+
+#car-top{
+    background-color: rgb(175, 18, 18);
+    border: bottom solid black 3px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    color: cornsilk;
+    height: 30px;
+}
+#output{
+    text-align: left;
+    font-size: large;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#lname{
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+}
