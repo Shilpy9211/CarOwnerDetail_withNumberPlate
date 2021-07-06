@@ -104,7 +104,7 @@ def mainfn():
     return s
 
 ## ----------  Performing OCR in live video ----------
-def myocr():
+def ocr():
     cap = cv2.VideoCapture(0)
     count=0
     while cap.isOpened():
@@ -180,4 +180,4 @@ def myocr():
 
     cap.release()
     cv2.destroyAllWindows()   
-myocr()
+
