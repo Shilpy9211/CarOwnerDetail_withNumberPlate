@@ -120,11 +120,12 @@
 border-radius: 20px;
 margin-left: 10px;
 margin-right: 10px;
-border: solid white 2px;
+border: solid black 2px;
 height: 20%;
 text-align: center;
 padding-top: 25px;
 margin-top: 5px;
+background-color: black;
 color:white
 }
 
@@ -143,7 +144,7 @@ color:white
     height: 40px;
     width: 100px;
     margin-top: 40px;
-    margin-left: 20%;
+    margin-left: 20 %;
     border-radius: 20px;
     text-decoration: black;
     background-color: red;
@@ -168,7 +169,7 @@ color:white
     background-color: rgb(176, 211, 245);
     height: 60%;
     border-radius: 10px;
-    
+    border: solid black 3px;
     margin: 10px;
     margin-left: 25px;
     margin-bottom: 0px;
@@ -178,22 +179,17 @@ color:white
 #car-top{
     background-color: rgb(175, 18, 18);
     border: bottom solid black 3px;
+    border-radius: 10px;
     text-align: center;
     font-size: large;
     color: cornsilk;
     height: 30px;
-    block-size: auto;
-    margin: 0px; 
-    padding-top: 5px;
-    border:solid 3px black;
 }
-
 #output{
     text-align: left;
     font-size: large;
     padding-left: 10px;
     padding-top: 10px;
-    border: solid black 3px;
 }
 
 #lname{
