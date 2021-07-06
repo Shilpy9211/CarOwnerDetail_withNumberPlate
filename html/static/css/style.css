@@ -125,7 +125,8 @@ height: 20%;
 text-align: center;
 padding-top: 25px;
 margin-top: 5px;
-background-color: darkgoldenrod;
+background-color: black;
+color:white
 }
 
 #btn{
@@ -140,13 +141,15 @@ background-color: darkgoldenrod;
 
 .submit-btn{
     border: solid  black;
-    height: 50px;
+    height: 40px;
     width: 100px;
     margin-top: 40px;
-    margin-left: 35%;
+    margin-left: 20 %;
     border-radius: 20px;
     text-decoration: black;
-    background-color: coral;
+    background-color: red;
+    color: white;
+    font-size: 20px;
 }
 #btn-info{
     padding-left: 10px;
@@ -192,5 +195,17 @@ background-color: darkgoldenrod;
 #lname{
     margin: 10px;
     height: 40px;
-    width: 150px;
+    width: 250px;
+    border-radius: 15px;
+    
 }
+
+::placeholder{
+   text-align: center;
+}
+
+form{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
