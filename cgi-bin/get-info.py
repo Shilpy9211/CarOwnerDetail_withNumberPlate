@@ -14,4 +14,6 @@ vehicle_number = field.getvalue("vehicle_number")
 
 
 response = requests.get(BASE + "vehicle/" + vehicle_number)
-print(json.dumps(response.json(), indent=1))
+responseJson = json.dumps(response.json(), indent=1)
+
+print(responseJson.replace("{", "").replace("}", ""))

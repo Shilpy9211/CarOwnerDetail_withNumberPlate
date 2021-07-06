@@ -1,8 +1,8 @@
 
-function getInfo() {
+function getInfo(vehicle_number) {
+    
     var xhr = new XMLHttpRequest();
-
-    xhr.open("GET", "http://192.168.239.126/cgi-bin/get-info.py?vehicle_number=" + vehicle_number, true);
+    xhr.open("GET", "http://192.168.153.207/cgi-bin/get-info.py?vehicle_number=" + vehicle_number, true);
 
     xhr.send();
 
@@ -10,7 +10,6 @@ function getInfo() {
 
     xhr.onload = function () {
         var output = xhr.responseText;
-        window.location.href = "ownerInfo.html";
         document.getElementById("output").innerHTML = output;
     }
 
